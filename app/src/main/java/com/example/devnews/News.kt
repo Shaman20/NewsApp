@@ -1,0 +1,7 @@
+package com.example.devnews
+
+data class News(
+    val articles: List<Article>,
+    val status: String,
+    val totalResults: Int
+)
